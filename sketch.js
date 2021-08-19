@@ -104,7 +104,7 @@ function createApples() {
 function createfruits() {
   fruits = createSprite(random(1000, 550),40, 10, 10);
   fruits.addImage(fruitbowlImg);
-  fruits.scale=0.2;
+  fruits.scale=0.09;
   fruits.velocityY = (8+(score/5));
   fruits.lifetime = 150;
   fruitsGroup.add(fruits);
